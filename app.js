@@ -13,6 +13,9 @@ $('#reset').on('click', function() {
 $('#red').on('click', function() {
   color = 'red';
 })
+// $('#red').hover('handlerIn', function() {
+//   color = 'red';
+// })
 $('#blue').on('click', function () {
   color = 'blue';
 })
@@ -25,10 +28,25 @@ $('#yellow').on('click', function () {
 $('#white').on('click', function() {
   color = 'white';
 })
-$('.box').on('click', function() {
+$('#purple').on('click', function(){
+  color = 'purple';
+})
+$('#pink').on('click', function(){
+    color = 'pink';
+  })
+$('#gold').on('click', function(){
+      color = 'gold';
+    })
+$('#silver').on('click', function(){
+        color = 'silver';
+})
+$('#black').on('click', function(){
+        color = 'black';
+})
+$('.box').hover('', function() {
   $(this).addClass(color);
 })
-var color = 'white green red blue yellow'
+var color = 'white green red blue yellow purple pink gold silver black'
 
 $('.box').on('dblclick', function() {
   $(this).removeClass(color);

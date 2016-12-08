@@ -44,6 +44,18 @@ div div {
 .yellow {
   background: yellow;
 }
+.purple {
+  background: purple;
+}
+.pink {
+  background: pink;
+}
+.gold {
+  background: gold;
+}
+.silver{
+  background: silver;
+}
 
 .pallette-white {
   background: white;
@@ -84,6 +96,36 @@ div div {
 
 .pallette-blue {
   background: blue;
+  height: 2%;
+  width: 1%;
+  padding: 10px;
+}
+.pallette-purple {
+  background: purple;
+  height: 2%;
+  width: 1%;
+  padding: 10px;
+}
+.pallette-pink {
+  background: pink;
+  height: 2%;
+  width: 1%;
+  padding: 10px;
+}
+.pallette-gold {
+  background: gold;
+  height: 2%;
+  width: 1%;
+  padding: 10px;
+}
+.pallette-silver {
+  background: silver;
+  height: 2%;
+  width: 1%;
+  padding: 10px;
+}
+.pallette-blacke {
+  background-color: black;
   height: 2%;
   width: 1%;
   padding: 10px;
